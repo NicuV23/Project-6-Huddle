@@ -199,10 +199,6 @@ p {
   flex-direction: column;
 }
 
-.bottom {
-  background-color: hsl(192, 100%, 9%);
-}
-
 .bottom h1 {
   color: white;
   font-size: 35px;
@@ -279,6 +275,7 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  background-color: hsl(192, 100%, 9%);
 }
 
 .subscribe {
@@ -307,10 +304,8 @@ p {
 
 @media (max-width: 650px) {
   .header {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 70%;
   }
 
   .header img {
@@ -340,7 +335,6 @@ p {
   }
 
   .statistic {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -351,30 +345,22 @@ p {
   }
 
   .grow {
-    display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
   }
 
   .flowing {
-    display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
   }
 
   .users {
-    display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
   }
 
   .bottom {
-    display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
   }
 
@@ -385,6 +371,5 @@ p {
 
   .footer {
     margin-bottom: -1px;
-    width: 1000px;
   }
 }
