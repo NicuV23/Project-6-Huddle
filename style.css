@@ -385,5 +385,6 @@ p {
 
   .footer {
     margin-bottom: -1px;
+    width: 1000px;
   }
 }
