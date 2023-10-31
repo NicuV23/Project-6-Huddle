@@ -379,7 +379,11 @@ p {
   }
 
   .allfooter {
-    display: flex;
-    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .footer {
+    margin-bottom: -1px;
   }
 }
